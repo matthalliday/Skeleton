@@ -16,7 +16,7 @@ $secondary: #000;
 	transition: $property $duration ease-in-out;
 }
 
-@mixin rounded_corners($radius: 5px) {
+@mixin round_corners($radius: 5px) {
 	-webkit-border-radius: $radius;
 	-moz-border-radius: $radius;
 	border-radius: $radius;
@@ -32,6 +32,12 @@ $secondary: #000;
 	-webkit-box-shadow: inset $x $y $blur $color;
 	-moz-box-shadow: inset $x $y $blur $color;
 	box-shadow: inset $x $y $blur $color;
+}
+
+@mixin text_indent() {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 @function calc_em($target-px, $context: 16px) {
