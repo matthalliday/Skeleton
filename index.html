@@ -13,7 +13,7 @@
 	<meta name="author" content="Author Name, www.example.com" />
 	
 	<!-- Mobile viewport optimized: h5bp.com/viewport -->
-	<meta name="viewport" content="width=device-width" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 	
@@ -46,25 +46,22 @@
 			</nav>
 			
 			<form role="search">
-				<fieldset>
-					<legend class="visuallyhidden">Search Site Name:</legend>
-					<label for="search-keyword" class="visuallyhidden">Enter keywords:</label>
-					<input type="text" name="s" id="search-keyword" />
-					<input type="submit" value="Search" />
-				</fieldset>
+				<label for="search-keyword" class="visuallyhidden">Enter keywords:</label>
+				<input type="text" name="s" id="search-keyword" placeholder="CSS, HTML, JS" />
+				<input type="submit" value="Search" />
 			</form>
 		</header>
 		
 		<section id="content">
 			<h1 class="visuallyhidden">Section Name</h1>
 			
-			<article id="main" role="main">
+			<article role="main">
 				<h1>Main Content</h1>
-			</article><!-- /#main -->
+			</article>
 			
 			<aside id="sidebar" role="complementary">
 				<aside>
-					<h2>Sidebar</h2>
+					<h1>Sidebar</h1>
 					<p>Modules or widgets for the sidebar</p>
 				</aside>
 			</aside>
