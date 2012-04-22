@@ -1,6 +1,6 @@
 // Font Stacks
 $sans_serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$serif: Georgia, Times, serif;
+$serif: "Hoefler Text", Georgia, Times, serif;
 
 
 // Color Scheme
@@ -16,10 +16,16 @@ $secondary: #000;
 	transition: $property $duration ease-in-out;
 }
 
-@mixin round_corners($radius: 5px) {
+@mixin border_radius($radius: 5px) {
 	-webkit-border-radius: $radius;
 	-moz-border-radius: $radius;
 	border-radius: $radius;
+}
+
+@mixin single_border_radius($side, $edge, $radius: 5px) {
+	-webkit-border-#{$edge}-#{$side}-radius: $radius;
+	-moz-border-radius-#{$edge}#{$side}: $radius;
+	border-#{$edge}-#{$side}-radius: $radius;
 }
 
 @mixin box_shadow($x: 0, $y: 0, $blur: 5px, $color: rgba(0,0,0,0.25)) {
@@ -41,13 +47,10 @@ $secondary: #000;
 }
 
 @function calc_em($target-px, $context: 16px) {
-  @return ($target-px / $context) * 1em;
+	@return ($target-px / $context) * 1em;
 }
 
 
 /* Layout
 --------------------------------------------- */
-body {
-	font: normal 100% $sans_serif;
-}
-
+body { font: normal 100% $sans_serif; }
