@@ -74,15 +74,15 @@ body {
    Links
    ========================================================================== */
 a {
-  color: #00e;
+  color: #000;
 }
 
 a:visited {
-  color: #551a8b;
+  color: #666;
 }
 
 a:hover {
-  color: #06e;
+  color: #333;
 }
 
 a:focus {
@@ -111,6 +111,10 @@ blockquote {
 
 dfn {
   font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
 }
 
 hr {
@@ -182,8 +186,7 @@ sub {
    Lists
    ========================================================================== */
 ul, ol {
-  margin: 1em 0;
-  padding: 0 0 0 40px;
+  padding: 0;
 }
 
 dd {
