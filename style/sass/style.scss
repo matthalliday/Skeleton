@@ -1,8 +1,9 @@
 // This file should be used for includes only
 
-@import "normalize";
-@import "author";
-@import "ie";
-@import "mediaqueries";
-@import "helpers";
-@import "print";
+@import "config";       // Variables, mixins & functions
+@import "normalize";    // More consistent browser styling
+@import "author";       // Layout, typography & color
+@import "ie";           // Internet Explorer specific fixes
+@import "mediaqueries"; // Responsive breakpoints
+@import "helpers";      // Non-semantic helper classes
+@import "print";        // Print media (inline to avoid extra HTTP request)
