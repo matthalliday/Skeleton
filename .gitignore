@@ -1,9 +1,4 @@
-# Sass Cache         #
-######################
 .sass-cache
-
-# OS generated files #
-######################
 .DS_Store*
 ehthumbs.db
 Icon?
