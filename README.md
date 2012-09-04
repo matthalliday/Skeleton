@@ -14,12 +14,13 @@ How to use
 ----------
 Most people can just download, unzip and start customizing as they see fit.
 
-If you don't want to use [Sass][2], here's what to do:
+If you're weird and don't want to use [Sass][2] for some strange reason, here's what to do:
 
 1. Seriously consider using [Sass][2]. It will make your life easier and more enjoyable.
-2. Ok, fine. Delete both `style/sass` and `style/compiled` directories.
-3. Update the stylesheet path in `index.html` so that it points to your new, plain-jane CSS file.
-4. That's it. Seriously.
+2. Ok, fine. Delete the `style/sass` directory.
+3. Move the `style/compiled/style.css` file up one directory and then delete `style/compiled`.
+4. Remember to update your `index.html` file to point to the new location.
+5. That's it. Seriously.
 
 Acknowledgements
 ----------------
