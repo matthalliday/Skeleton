@@ -2,7 +2,7 @@
 guard 'livereload' do
   watch /^.+\.html/
   watch /^.+\.php/
-  watch /^.+(\.s[ac]ss)/
+  watch /^.+\.scss/
   watch /^.+\.css/
   watch /^.+\.js​/
 end
