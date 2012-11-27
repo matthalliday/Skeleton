@@ -1,6 +1,5 @@
 // Print Styles (h5bp.com/r)
-// --------------------------------------------- //
-
+// -------------------------------------------------------------------------- //
 @media print {
 	* {
 		background: transparent !important;
@@ -23,7 +22,6 @@
 	}
 
 	// Don't show links for images, or javascript/internal links
-
 	.ir a:after,
 	a[href^="javascript:"]:after,
 	a[href^="#"]:after {
