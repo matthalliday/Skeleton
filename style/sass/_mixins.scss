@@ -31,6 +31,9 @@
 	box-shadow: inset $x $y $blur $color;
 }
 
+
+// Functions
+// -------------------------------------------------------------------------- //
 @function calc_em($target-px, $context: 16px) {
 	@return ($target-px / $context) * 1em;
 }
