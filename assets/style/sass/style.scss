@@ -5,7 +5,7 @@
 @import "normalize";     // More consistent browser styling
 @import "objects";       // Reusable and extendable CSS objects
 
-@import "layout/main";   // Base styling (layout, typography & color)
+@import "layout/base";   // Base styling (layout, typography & color)
 @import "layout/small";  // Media query for small viewports
 @import "layout/medium"; // Media query for medium viewports
 @import "layout/large";  // Media query for large viewports

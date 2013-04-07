@@ -17,51 +17,49 @@
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
 	<!-- One stylesheet to rule them all (minimizes HTTP requests) -->
-	<link rel="stylesheet" href="style/compiled/style.css" />
+	<link rel="stylesheet" href="assets/style/compiled/style.css" />
 
-	<!-- All scripts at bottom, except Modernizr (HTML5 support & feature detects) -->
-	<script src="js/vendor/modernizr.custom.41882.js"></script>
+	<!-- All scripts at bottom, except Modernizr & Respond -->
+	<script src="assets/js/vendor/modernizr.custom.41882.js"></script>
+	<script src="assets/js/vendor/respond.min.js"></script>
 </head>
 
 <body>
 	<header role="banner">
-		<p class="skip visuallyhidden focusable">
-			<a href="#content" accesskey="S">Skip to content</a>
+		<p class="visuallyhidden focusable">
+			<a href="#content">Skip to content</a>
+			<a href="#navigation">Skip to navigation</a>
 		</p>
 
-		<hgroup>
-			<h1><a href="#" accesskey="H">Site Name</a></h1>
-			<h2>Tagline for the website</h2>
-		</hgroup>
+		<h1><a href="#" accesskey="H">Site Name</a></h1>
 
-		<nav role="navigation">
-			<ul class="clearfix">
-				<li><a href="#" accesskey="1">First Link</a></li>
-				<li><a href="#" accesskey="2">Second Link</a></li>
-				<li><a href="#" accesskey="3">Third Link</a></li>
-				<li><a href="#" accesskey="4">Fourth Link</a></li>
-				<li><a href="#" accesskey="5">Fifth Link</a></li>
+		<nav role="navigation" id="navigation">
+			<h1 class="visuallyhidden">Site Navigation</h1>
+			<ul>
+				<li><a href="#" accesskey="1">Navigation Item</a></li>
+				<li><a href="#" accesskey="2">Navigation Item</a></li>
+				<li><a href="#" accesskey="3">Navigation Item</a></li>
 			</ul>
 		</nav>
 
 		<form role="search">
 			<label for="search-keyword">Search Site Name:</label>
-			<input type="text" name="s" id="search-keyword" required="required" aria-required="true" />
+			<input type="search" id="search-keyword" required="required" aria-required="true" />
 			<input type="submit" value="Search" />
 		</form>
 	</header>
 
-	<div id="content">
+	<div role="main" id="content">
+		<p>Main content area for site.</p>
 	</div><!-- /#content -->
 
 	<footer role="contentinfo">
-		<p>&copy; [Year] Site Name</p>
-		<p>Site by <a href="#">Author Name</a></p>
+		<p>Site copyright, credits, and other information.</p>
 	</footer>
 
 	<!-- Scripts at the bottom for fast page loading -->
-	<script src="js/vendor/jquery.min.js"></script>
-	<script src="js/custom.js"></script>
+	<script src="assets/js/vendor/jquery.min.js"></script>
+	<script src="assets/js/custom.js"></script>
 
 	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
 	<script>
