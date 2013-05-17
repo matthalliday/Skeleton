@@ -1,4 +1,4 @@
-What is Skeleton?
+What is Fortress?
 =================
 It's a custom-tailored project skeleton for creating lightweight, semantic websites.
 
