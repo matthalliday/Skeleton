@@ -1,5 +1,5 @@
 guard 'livereload' do
-  watch(%r{\.(css|scss|js|html|php)})
+  watch(%r{\.(css|scss|js|coffee|html|php)})
 end
 
 guard 'sass',
