@@ -1,8 +1,8 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -31,37 +31,38 @@
 		s.parentNode.insertBefore(g,s)}(document,'script'));
 	</script>
 </head>
-
 <body>
-	<header role="banner">
+	<header role="banner" class="site-header">
 		<p class="visuallyhidden focusable">
 			<a href="#content">Skip to content</a>
 			<a href="#navigation">Skip to navigation</a>
 		</p>
 
-		<h1><a href="#" accesskey="H">Site Name</a></h1>
+		<h1 class="site-branding">
+			<a href="#" accesskey="H">Site Name</a>
+		</h1>
 
-		<nav role="navigation" id="navigation">
+		<nav role="navigation" id="navigation" class="site-nav">
 			<h1 class="visuallyhidden">Site Navigation</h1>
-			<ul>
-				<li><a href="#" accesskey="1">Navigation Item</a></li>
-				<li><a href="#" accesskey="2">Navigation Item</a></li>
-				<li><a href="#" accesskey="3">Navigation Item</a></li>
+			<ul class="nav-collection">
+				<li class="nav-item"><a href="#" accesskey="1">Navigation Item</a></li>
+				<li class="nav-item"><a href="#" accesskey="2">Navigation Item</a></li>
+				<li class="nav-item"><a href="#" accesskey="3">Navigation Item</a></li>
 			</ul>
 		</nav>
 
-		<form role="search">
+		<form role="search" class="site-search" novalidate="novalidate">
 			<label for="search-keyword">Search Site Name:</label>
 			<input type="search" id="search-keyword" required="required" aria-required="true" />
 			<input type="submit" value="Search" />
 		</form>
 	</header>
 
-	<div role="main" id="content">
+	<div role="main" id="content" class="template">
 		<p>Main content area for site.</p>
 	</div><!-- /#content -->
 
-	<footer role="contentinfo">
+	<footer role="contentinfo" class="site-footer">
 		<p>Site copyright, credits, and other information.</p>
 	</footer>
 
