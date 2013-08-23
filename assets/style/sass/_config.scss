@@ -8,3 +8,10 @@ $body: "Helvetica Neue", Helvetica, Arial, sans-serif;
 // -------------------------------------------------------------------------- //
 $primary: #000;
 $secondary: #333;
+
+
+// Breakpoints
+// -------------------------------------------------------------------------- //
+$small: calc_em(320px);
+$medium: calc_em(640px);
+$large: calc_em(960px);

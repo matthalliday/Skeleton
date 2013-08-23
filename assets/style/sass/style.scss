@@ -3,6 +3,7 @@
 @import "mixins";        // Mixins and placeholders
 @import "config";        // Variables, mixins & functions
 @import "normalize";     // More consistent browser styling
+@import "helpers";       // Non-semantic helper classes
 @import "objects";       // Reusable and extendable CSS objects
 
 @import "layout/base";   // Base styling (layout, typography & color)
@@ -11,5 +12,4 @@
 @import "layout/large";  // Media query for large viewports
 
 @import "ie";            // Internet Explorer specific fixes
-@import "helpers";       // Non-semantic helper classes
 @import "print";         // Print media (inline to avoid extra HTTP request)
