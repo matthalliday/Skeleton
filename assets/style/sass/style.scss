@@ -1,15 +1,21 @@
-// Configuration
+// Config
 // -------------------------------------------------------------------------- //
-@import "mixins";        // Mixins and placeholders
-@import "config";        // Variables, mixins & functions
-@import "normalize";     // More consistent browser styling
-@import "helpers";       // Non-semantic helper classes
-@import "objects";       // Reusable and extendable CSS objects
+@import "config/mixins";
+@import "config/environment";
+@import "config/normalize";
+@import "config/helpers";
 
-@import "layout/base";   // Base styling (layout, typography & color)
-@import "layout/small";  // Media query for small viewports
-@import "layout/medium"; // Media query for medium viewports
-@import "layout/large";  // Media query for large viewports
 
-@import "ie";            // Internet Explorer specific fixes
-@import "print";         // Print media (inline to avoid extra HTTP request)
+// Layout
+// -------------------------------------------------------------------------- //
+@import "layout/objects";
+@import "layout/base";
+@import "layout/small";
+@import "layout/medium";
+@import "layout/large";
+
+
+// Auxiliary
+// -------------------------------------------------------------------------- //
+@import "auxiliary/ie";
+@import "auxiliary/print";
