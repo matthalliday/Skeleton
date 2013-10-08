@@ -1,8 +1,10 @@
 @media print {
 	* {
+		position: static !important;
+		float: none !important;
 		background: transparent !important;
 		color: #000 !important; // Black prints faster: h5bp.com/s
-		box-shadow:none !important;
+		box-shadow: none !important;
 		text-shadow: none !important;
 	}
 
@@ -19,16 +21,15 @@
 		content: " (" attr(title) ")";
 	}
 
-	// Don't show links for images, or javascript/internal links
+	// Don't show links for images or anchor links
 	.ir a:after,
-	a[href^="javascript:"]:after,
 	a[href^="#"]:after {
 		content: "";
 	}
 
 	pre,
 	blockquote {
-		border: 1px solid #999;
+		border: 1px solid #000;
 		page-break-inside: avoid;
 	}
 
@@ -42,6 +43,7 @@
 	}
 
 	img {
+		width: auto;
 		max-width: 100% !important;
 	}
 
@@ -50,10 +52,5 @@
 	h3 {
 		orphans: 3;
 		widows: 3;
-	}
-
-	h2,
-	h3 {
-		page-break-after: avoid;
 	}
 }
