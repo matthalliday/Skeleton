@@ -11,4 +11,5 @@ guard 'sass',
 guard 'coffeescript',
   input: 'assets/script/coffee',
   output: 'assets/script/compiled',
-  all_on_start: true
+  all_on_start: true,
+  bare: true

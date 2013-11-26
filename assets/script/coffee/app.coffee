@@ -1,1 +1,2 @@
-$(document).ready ->
+do ($ = jQuery, window, document) ->
+  'use strict'
