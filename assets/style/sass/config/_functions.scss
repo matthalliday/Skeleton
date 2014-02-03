@@ -1,7 +1,7 @@
-@function calc_em($target-px, $context: 16px) {
+@function calc-em($target-px, $context: 16px) {
   @return ($target-px / $context) * 1em;
 }
 
-@function calc_pc($target-px, $context: 1000px) {
+@function calc-pc($target-px, $context: 1000px) {
   @return ($target-px / $context) * 100%;
 }
