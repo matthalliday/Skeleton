@@ -6,7 +6,8 @@ guard 'sass',
   input: 'assets/style/sass',
   output: 'assets/style/compiled',
   style: :compressed,
-  all_on_start: true
+  all_on_start: true,
+  shallow: true
 
 guard 'coffeescript',
   input: 'assets/script/coffee',
