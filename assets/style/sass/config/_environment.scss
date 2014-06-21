@@ -1,17 +1,26 @@
 // Font Stacks
 // -------------------------------------------------------------------------- //
-$heading: Cambria, Georgia, serif;
-$body: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$fonts: (
+  heading: (
+    regular: (Georgia, "Times New Roman", serif)
+  ),
+  body: (
+    regular: (Helvetica, Arial, sans-serif)
+  )
+);
 
 
-// Color Scheme
+// Color Palette
 // -------------------------------------------------------------------------- //
-$primary: #000;
-$secondary: #333;
-
-
-// Breakpoints
-// -------------------------------------------------------------------------- //
-$small: calc-em(320px);
-$medium: calc-em(640px);
-$large: calc-em(960px);
+$colors: (
+  neutral: (
+    base: #333,
+    light: #999,
+    dark: #111
+  ),
+  primary: (
+    base: #a40000,
+    light: lighten(#a40000, 5%),
+    dark: darken(#a40000, 5%)
+  )
+);

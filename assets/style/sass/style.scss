@@ -6,20 +6,18 @@
 @import "config/helpers";
 
 
-// Modules
+// Components
 // -------------------------------------------------------------------------- //
-@import "modules/base";
-@import "modules/forms";
-@import "modules/objects";
-@import "modules/typography";
-@import "modules/widgets";
+@import "components/base";
+@import "components/forms";
+@import "components/objects";
+@import "components/typography";
+@import "components/widgets";
 
 
-// Layout
+// Layouts
 // -------------------------------------------------------------------------- //
-@import "layout/small";
-@import "layout/medium";
-@import "layout/large";
+@import "layouts/structure";
 
 
 // Auxiliary
