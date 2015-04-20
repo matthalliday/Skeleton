@@ -1,11 +1,3 @@
-@function calc-em($target-px, $context: 16px) {
-  @return ($target-px / $context) * 1em;
-}
-
-@function calc-pc($target-px, $context: 1000px) {
-  @return ($target-px / $context) * 100%;
-}
-
 @function font($family, $style: 'regular') {
   @if map-has-key($fonts, $family) {
     @if map-has-key(map-get($fonts, $family), $style) {
@@ -30,6 +22,14 @@
   }
 }
 
+@function tint($color, $percent) {
+  @return mix(#fff, $color, $percent);
+}
+
+@function shade($color, $percent) {
+  @return mix(#000, $color, $percent);
+}
+
 @mixin breakpoint($point) {
   @if $point == small {
     @media only screen and (min-width: 480px) { @content; }
@@ -43,4 +43,12 @@
   @else if $point == giant {
     @media only screen and (min-width: 1280px) { @content; }
   }
+}
+
+@function calc-em($target-px, $context: 16px) {
+  @return ($target-px / $context) * 1em;
+}
+
+@function calc-pc($target-px, $context: 1000px) {
+  @return ($target-px / $context) * 100%;
 }
