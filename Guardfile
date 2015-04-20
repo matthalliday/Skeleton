@@ -1,5 +1,5 @@
 guard 'livereload' do
-  watch(%r{\.(css|scss|js|coffee|html|php)})
+  watch(%r{\.(css|scss|js|html|php)})
 end
 
 guard 'sass',
@@ -8,9 +8,3 @@ guard 'sass',
   style: :compressed,
   all_on_start: true,
   shallow: true
-
-guard 'coffeescript',
-  input: 'assets/script/coffee',
-  output: 'assets/script/compiled',
-  all_on_start: true,
-  bare: true
