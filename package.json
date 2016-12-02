@@ -1,0 +1,22 @@
+{
+  "name": "fortress",
+  "version": "1.0.0",
+  "description": "A custom-tailored project skeleton for creating lightweight, semantic websites",
+  "main": "",
+  "scripts": {
+    "build": "node-sass --watch --output-style compressed --source-map true --error-bell --output assets/style/compiled assets/style/sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthalliday/fortress.git"
+  },
+  "author": "Matt Halliday",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthalliday/fortress/issues"
+  },
+  "homepage": "https://github.com/matthalliday/fortress#readme",
+  "devDependencies": {
+    "node-sass": "^3.13.0"
+  }
+}
