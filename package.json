@@ -1,7 +1,7 @@
 {
   "name": "fortress",
   "version": "1.0.0",
-  "description": "A custom-tailored project skeleton for creating lightweight, semantic websites",
+  "description": "Fortress is a custom-tailored project skeleton for creating lightweight, responsive, & accessible websites.",
   "main": "",
   "scripts": {
     "build": "node-sass --watch --output-style compressed --source-map true --error-bell --output assets/style/compiled assets/style/sass"
