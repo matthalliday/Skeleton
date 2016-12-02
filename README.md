@@ -4,12 +4,11 @@ Fortress is a custom-tailored project skeleton for creating lightweight, semanti
 It's pretty barebones, so it won't be for everyone. If other templates, boilerplates or frameworks didn't quite work out for you, then you might appreciate this one.
 
 ## Instructions
-The default setup will be suitable for most people, but making customizations is easy too. If you change the `assets` directory structure, be sure to update the relative paths found in `index.html` and `build.sh`.
+The default setup will be suitable for most people, but making customizations is easy too. If you change the `assets` directory structure, be sure to update the relative paths found in `index.html` and `package.json`.
 
-1. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/). The latest version is recommended (currently 2.3.1), but should work back to 2.0.
-1. Install [Sass](http://sass-lang.com/install). The latest version is recommended (currently 3.4.22), but should work back to 3.3.0.
-3. Ensure that `build.sh` is executable. If it isn't, run `chmod +x build.sh`.
-4. Run `./build.sh` to compile Sass & watch for changes.
+1. Install [Node.js](https://nodejs.org/). The latest stable version is recommended (currently 7.2.0).
+2. Run `npm install` to get all dependencies (currently just node-sass).
+3. Run `npm run build` to compile Sass & watch for changes.
 
 ## Acknowledgements
 Thanks to everyone involved with [HTML5 Boilerplate](http://html5boilerplate.com). It's a fantastic project made by people way smarter than me. This project wouldn't exist without all your hard work.
