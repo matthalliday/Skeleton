@@ -21,7 +21,7 @@ It's pretty barebones, so it won't be for everyone. If other templates, boilerpl
 ## Instructions
 The default setup will be suitable for most people, but making customizations is easy too. If you change the `assets` directory structure, be sure to update the relative paths found in `index.html` & `package.json`.
 
-1. Install [Node.js](https://nodejs.org/). The latest stable version is recommended (currently 7.2.0).
+1. Install [Node.js](https://nodejs.org/). The latest stable version is recommended (currently 7.5.0).
 2. Run `npm install` to get all dependencies (currently just node-sass).
 3. Run `npm run build` to compile Sass & watch for changes.
 
