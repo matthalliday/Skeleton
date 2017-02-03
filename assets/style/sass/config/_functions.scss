@@ -30,25 +30,16 @@
   @return mix(#000, $color, $percent);
 }
 
-@mixin breakpoint($point) {
-  @if $point == small {
-    @media only screen and (min-width: 480px) { @content; }
-  }
-  @else if $point == medium {
-    @media only screen and (min-width: 768px) { @content; }
-  }
-  @else if $point == large {
-    @media only screen and (min-width: 960px) { @content; }
-  }
-  @else if $point == giant {
-    @media only screen and (min-width: 1280px) { @content; }
-  }
-}
-
 @function calc-em($target-px, $context: 16px) {
   @return ($target-px / $context) * 1em;
 }
 
 @function calc-pc($target-px, $context: 1000px) {
   @return ($target-px / $context) * 100%;
+}
+
+@mixin breakpoint($breakpoint) {
+  @media only screen and (min-width: $breakpoint) {
+    @content;
+  }
 }

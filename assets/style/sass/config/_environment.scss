@@ -1,5 +1,13 @@
 // Font Stacks
 // -------------------------------------------------------------------------- //
+$breakpoint-sm: calc-em(480px);
+$breakpoint-md: calc-em(768px);
+$breakpoint-lg: calc-em(960px);
+$breakpoint-xl: calc-em(1280px);
+
+
+// Font Stacks
+// -------------------------------------------------------------------------- //
 $fonts: (
   heading: (
     regular: (Georgia, "Times New Roman", serif)
