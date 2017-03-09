@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/matthalliday/fortress#readme",
   "devDependencies": {
-    "node-sass": "^3.13.0"
+    "node-sass": "^4.5.0"
   }
 }
