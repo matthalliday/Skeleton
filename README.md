@@ -1,14 +1,9 @@
 # What is Fortress?
-Fortress is a custom-tailored project skeleton for creating lightweight, responsive, & accessible websites.
+Fortress is a custom-tailored project skeleton for creating responsive, accessible, and performant websites.
 
 It's pretty barebones, so it won't be for everyone. If other templates, boilerplates or frameworks didn't quite work out for you, then you might appreciate this one.
 
 ## Features
-### Lightweight
-- Makes minimal HTTP requests
-- Loads scripts at the bottom of the page
-- Compiles Sass using the compressed style
-
 ### Responsive
 - Adjusts the site to the device width
 - Allows people to pinch or tap to zoom
@@ -17,6 +12,11 @@ It's pretty barebones, so it won't be for everyone. If other templates, boilerpl
 - Keyboard navigable
 - Skip to content link
 - Uses HTML5 section elements & ARIA landmark roles
+
+### Performant
+- Makes minimal HTTP requests
+- Loads scripts at the bottom of the page
+- Compiles Sass using the compressed style
 
 ## Instructions
 The default setup will be suitable for most people, but making customizations is easy too. If you change the `assets` directory structure, be sure to update the relative paths found in `index.html` & `package.json`.
