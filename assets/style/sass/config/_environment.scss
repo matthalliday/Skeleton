@@ -1,10 +1,9 @@
-// Font Stacks
+// Common Breakpoints
 // -------------------------------------------------------------------------- //
 $breakpoint-sm: calc-em(480px);
 $breakpoint-md: calc-em(768px);
 $breakpoint-lg: calc-em(960px);
 $breakpoint-xl: calc-em(1280px);
-
 
 // Font Stacks
 // -------------------------------------------------------------------------- //
@@ -16,7 +15,6 @@ $fonts: (
     regular: (Helvetica, Arial, sans-serif)
   )
 );
-
 
 // Color Palette
 // -------------------------------------------------------------------------- //

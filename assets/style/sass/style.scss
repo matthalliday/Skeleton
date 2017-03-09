@@ -5,20 +5,11 @@
 @import "config/normalize";
 @import "config/helpers";
 
-
 // Components
 // -------------------------------------------------------------------------- //
-@import "components/base";
-@import "components/forms";
-@import "components/objects";
-@import "components/typography";
-@import "components/widgets";
-
-
-// Layouts
-// -------------------------------------------------------------------------- //
-@import "layouts/structure";
-
+@import "main/base";
+@import "main/layout";
+@import "main/typography";
 
 // Auxiliary
 // -------------------------------------------------------------------------- //
